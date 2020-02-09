@@ -6,6 +6,8 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: true,
+    nextArrow: '<img src="img/arrowleft.png" class="slick-prevbtn" />',
+    prevArrow: '<img src="img/arrowright.png" class="slick-nextvbtn"/>',
     responsive: [
       {
         breakpoint: 1024,
