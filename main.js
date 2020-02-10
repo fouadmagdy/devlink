@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  //slick slider
+
   $('.helped-carusal').slick({
     infinite: true,
     slidesToShow: 2,
@@ -27,6 +30,21 @@ $(document).ready(function () {
       }
     ]
   });
+
+
+  // scrolldown button
+
+  document.querySelectorAll('.icon-scroll').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        document.querySelector('.helped').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+  });
+
+  // rendering cards
 
   fetch('https://api.myjson.com/bins/e7ibe')
     .then(function (response) {
@@ -63,5 +81,3 @@ $(document).ready(function () {
       });
     });
 });
-
-
