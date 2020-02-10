@@ -7,7 +7,7 @@
     font-size: 75%; } }
 
 .investments {
-  background: url(../img/helped.png) no-repeat center center;
+  background: url(../img/helped.webp) no-repeat center center;
   background-size: cover; }
 
 nav {
@@ -84,7 +84,7 @@ main .helped {
       font-size: 1.2rem; }
 
 main .investments {
-  background: url(../img/investments.png) no-repeat center center;
+  background: url(../img/investments.webp) no-repeat center center;
   background-size: cover;
   height: 90vh;
   font-family: optima; }
@@ -212,11 +212,11 @@ footer {
   height: 100px; }
 
 .carousel-control-prev-icon {
-  background-image: url(../img/nextarrow.png);
+  background-image: url(../img/nextarrow.webp);
   transform: rotate(180deg); }
 
 .carousel-control-next-icon {
-  background-image: url(../img/nextarrow.png); }
+  background-image: url(../img/nextarrow.webp); }
 
 .card {
   border-radius: unset; }
